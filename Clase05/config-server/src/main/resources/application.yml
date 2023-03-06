@@ -9,4 +9,4 @@ spring:
       server:
         git:
           uri: https://github.com/gapiazza/DH.CTD.BK.Backend1.git
-          basedir: service-configuration
+          default-label: sb
