@@ -12,5 +12,5 @@ spring:
           uri: https://github.com/gapiazza/DH.CTD.BK.Backend1.git
           default-label: sb
           # force-pull: true
-          search-paths: configData
+          # search-paths: configData
           # basedir: configData
