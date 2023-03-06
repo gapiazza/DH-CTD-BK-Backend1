@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: dh-cuenta-service
+  cloud:
+    config:
+      enabled: true
+      uri: ${CONFIG_SERVER:http://localhost:8888}
+  profiles:
+    active: dev
