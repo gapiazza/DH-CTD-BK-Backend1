@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: api-catalog
+    name: catalog-service
 
 eureka:
   client:
