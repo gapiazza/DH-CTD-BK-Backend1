@@ -8,4 +8,5 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/gapiazza/DH.CTD.BK.Backend1.git
+          basedir: service-configuration
