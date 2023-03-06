@@ -6,7 +6,11 @@ spring:
     name: config-server
   cloud:
     config:
+      # enabled: true
       server:
         git:
           uri: https://github.com/gapiazza/DH.CTD.BK.Backend1.git
           default-label: sb
+          # force-pull: true
+          search-paths: configData
+          # basedir: configData
