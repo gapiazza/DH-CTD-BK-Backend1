@@ -1,1 +1,4 @@
-
+server:
+  port: ${PORT:8889}
+  
+message: Configuracion custom con spring cloud config!
