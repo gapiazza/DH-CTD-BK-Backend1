@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          # Uri en un repositorio público:
+          # uri: https://github.com/gapiazza/DH.CTD.BK.Backend1.git
+
+          # Uri en el repo del mismo proyecto (repo-privado)
+          uri: https://github.com/gapiazza/DH.CTD.BK1.Parcial.1.git
+          default-label: sb
+          force-pull: true
+          # Carpeta para ustilizar con el repo público:
+          # search-paths: configData/parcial1
+
+          # Carpeta en el repo del mismo proyecto (repo-privado)
+          search-paths: config-data
