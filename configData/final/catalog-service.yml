@@ -9,8 +9,8 @@ spring:
       version: 4.0.2
   data:
     mongodb:
-      database: catalog
-      port: 27017
+      database: test
+      port: 27018
   zipkin:
     baseUrl: http://localhost:9411/
 
