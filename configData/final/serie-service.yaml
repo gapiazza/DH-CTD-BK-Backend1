@@ -11,6 +11,8 @@ spring:
     mongodb:
       database: test
       port: 27017
+  zipkin:
+    baseUrl: http://localhost:9411/
 
 eureka:
   client:
